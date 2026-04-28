@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+data/raw/
+data/processed/*.parquet
+models/*/*.txt
+models/*/features.json
+.DS_Store

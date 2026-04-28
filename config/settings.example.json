@@ -1,0 +1,26 @@
+{
+  "appraisal_raw_dir": "data/raw/dcad_appraisal",
+  "gis_raw_dir": "data/raw/dcad_gis",
+  "processed_dir": "data/processed",
+  "target_candidates": [
+    "tot_val",
+    "total_value",
+    "market_value",
+    "mkt_val",
+    "appraised_value",
+    "appraised_val",
+    "prev_mkt_val"
+  ],
+  "join_key_candidates": [
+    "ACCOUNT_NUM",
+    "ACCT",
+    "acct",
+    "account",
+    "account_num",
+    "PARCEL_ID",
+    "parcel_id",
+    "PROP_ID",
+    "property_id"
+  ],
+  "default_crs": "EPSG:4326"
+}
